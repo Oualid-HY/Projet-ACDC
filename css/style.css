@@ -1,0 +1,93 @@
+/* ------------------------G E N E R A L --------------------------------*/
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+body{
+    background: linear-gradient(125deg, black 0%,black 25%,#E9290F 25%,#E9290F 50%,black 50%,black 82%, #E9290F 82%, #E9290F 100%);
+}
+h2{
+    color: #efeeef;
+    font-family: "dark";
+}
+i{
+    font-size: 1.7rem;
+    color: #c20003;
+}
+a.nav-link, .logo,h5,div input::placeholder{
+    color: #b60a1a;
+}
+a.nav-link:hover,.logo:hover{
+    color: #a4af9b;
+}
+/* ------------------------F O N T S-----------------------------------*/
+@font-face {
+    font-family: "hard";
+    src: url(../font/HARD_ROCK.ttf);
+}
+@font-face {
+    font-family: "crazy";
+    src: url(../font/rocknroll_typo_crazy.ttf);
+}
+@font-face {
+    font-family: "dark";
+    src: url(../font/TheDark.ttf);
+}
+/* ------------------------H E A D E R-----------------------------------*/
+header{
+    height: 50px;
+    background-color: #212429;
+}
+header > a {
+    font-family: "hard";
+}
+nav {
+    font-family: "dark";
+    background-color: #212429;
+}
+.carousel{
+    width: 80%;
+}
+/* ------------------------M A I N --------------------------------------*/
+div.artist{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.artist img{
+    width: 250px;
+    height: 200px;
+}
+.card{
+    border: none;
+    width: 20rem;
+    -webkit-box-shadow: 9px 5px 5px 0px #000000; 
+    box-shadow: 9px 5px 5px 0px #000000;
+}
+thead{
+    color: #b60a1a;
+    border-bottom:1px solid #b60a1a;
+}
+tbody,footer{
+    color:#fff;
+}
+/*-----Contact-------*/
+#prenom::placeholder,#nom::placeholder,#mail::placeholder,#comment::placeholder{
+    color: #b60a1a;
+    font-family: "hard";
+}
+button.form,.more{
+    background-color: #b60a1a;
+    font-family: "crazy";
+    color: #fcfcfa;
+}
+button.form:hover,.more:hover{
+    background-color: #a4af9b;
+
+}
+/* ------------------------F O O T E R-----------------------------------*/
+abbr[title]{
+    cursor: pointer;
+    text-decoration: none;
+}
